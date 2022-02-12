@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Pigmentory</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1000 height=600 style="width: 1000px; height: 600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
     <script src="Build/Pigmentory.app.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Pigmentory.app.data.br",
-        frameworkUrl: "Build/Pigmentory.app.framework.js.br",
-        codeUrl: "Build/Pigmentory.app.wasm.br",
+        dataUrl: "Build/Pigmentory.app.data",
+        frameworkUrl: "Build/Pigmentory.app.framework.js",
+        codeUrl: "Build/Pigmentory.app.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "noname",
         productName: "Pigmentory",
